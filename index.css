@@ -1,0 +1,70 @@
+body {  margin-top: 10vh;  }
+
+.intro {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+    margin: 10px 10vw;
+    width: 80vw;
+}
+
+#signup {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    color: #978999;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 15vh;
+    width: 100vw;
+}
+
+#icons {
+    width: 50vw;
+    margin: 10vh auto;
+}
+
+.img {
+    width:  10vw;
+    height: 10vw;
+    margin: 0 3vw;
+}
+
+#icons li {
+    clear: none;
+    float: left;
+}
+
+#fields {
+    margin: 3vh auto 15vh auto;
+    width: 88vw;
+}
+
+#fields li input {
+    border: none;
+    border-radius: 3px;
+    font-size: 4vw;
+    margin: 5px 2vw;
+}
+
+#email {
+    width: 45vw;
+    max-width: 325px;
+    float: left;
+    padding: 3vw 5vw;
+}
+
+#join {
+    margin-left: 4vw;
+    width: 25vw;
+    max-width: 144px;
+    text-align: center;
+    float: none;
+    padding: 3vw 2vw;
+
+    background: #563f5a;
+    color: #fff;
+}
+
+#join:hover, #join:focus {  background: #978999;}

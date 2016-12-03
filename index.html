@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fyndr - Waiting List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500|Source+Sans+Pro" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <p class="intro">See who's going out.</p>
+    <p class="intro">See where they're going.</p>
+    <p class="intro">Join them!</p>
+
+    <p id="signup">Sign Up for our NYC Waiting List</p>
+
+    <ul id="fields">
+        <li><input id="email"  type="email"   placeholder="Email"    oninput="check_input()"/></li>
+        <li><input id="join" type="button" value="Sign Up" onclick="click_join()"/></li>
+    </ul>
+    <ul id="icons">
+        <li><a href="http://www.gofyndr.com/"><img class="img" src="img/blog.png"      id="blog"
+               alt="Blog"      onmouseover="hover(this)" onmouseout="unhover(this)"/></a></li>
+        <li><a href="https://www.facebook.com/gofyndr"> <img class="img" src="img/facebook.png"  id="facebook"
+               alt="Facebook"  onmouseover="hover(this)" onmouseout="unhover(this)"/></a></li>
+        <li><a href="https://www.instagram.com/gofyndr"><img class="img" src="img/instagram.png" id="instagram"
+               alt="Instagram" onmouseover="hover(this)" onmouseout="unhover(this)"/></a></li>
+    </ul>
+</body>
+</html>
